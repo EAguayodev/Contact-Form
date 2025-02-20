@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Contact form</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <form action="submti" id="form">
+        <h1 class="contact-title" id="h1">Contact Us</h1>
+        <div class="user-details">
+          <div class="col-name">
+            <div class="input-box">
+              <span class="details">First Name *</span>
+              <input type="text" class="form-control" id="first-name">
+              <small class="error" id="error-first">This field is required</small>
+            </div>
+          </div>
+          <div class="col-name">
+            <div class="input-box">
+              <span class="details">Last Name *</span>
+              <input type="text" class="form-control" id="last-name">
+              <small class="error">This field is required</small>
+            </div>
+          </div>
+          <div class="col">
+            <div class="input-box">
+              <span class="details">Email Address *</span>
+              <input class="form-control" type="text" id="email">
+              <small class="error">Please enter a valid email address</small>
+            </div>
+          </div>
+          <div class="col-name">
+            <div class="input-box">
+              <label>
+                <span class="details">Query Type *</span>
+    
+              </label>
+              <div class="radio-wrapper">
+                <input class="form-control" type="radio" id="request" name="request" placeholder="Support Requested"
+                  value="Support Request">
+                <span>General Enquiry</span>
+              </div>
+            </div>
+            <!-- <div style="border: 2px solid green;">
+                
+              </div> -->
+          </div>
+          <div class="col-name">
+            <div class="input-box">
+              <label for="request"></label>
+              <div class="radio-wrapper">
+                <input class="form-control" type="radio" id="request" name="request" placeholder="Support Requested" value="Support Request">
+                <span>Support Request</span>
+              </div>
+            </div>
+    
+          </div>
+          <div class="col">
+            <div class="input-box">
+              <p><label class="details">Message *</label></p>
+              <textarea name="message" class="form-control-area" id="message" cols="70" row="14">
+              </textarea>
+              <small class="error">This field is required</small>
+              <p><label for="">
+                  <input type="checkbox">
+    
+                  I consent to being contacted by the team *</label></p>
+              <small class="error">To submit this form, please consent to being contacted</small>
+            </div>
+          </div>
+          <div class="col">
+            <div class="input-box">
+              <button class="btn-check" id="btn-submit" onclick="functionBtn()">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="success-message" id="success-message">
+      <!-- Message Sent!
+            Thanks for completing the form. We'll be in touch soon! -->
+    </div>
+    </form>
+    </div>
+  </main>
+</body>
+</html>
