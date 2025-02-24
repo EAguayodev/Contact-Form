@@ -43,17 +43,12 @@
             <div class="input-box">
               <label>
                 <span class="details">Query Type *</span>
-    
               </label>
               <div class="radio-wrapper">
-                <input class="form-control" type="radio" id="request" name="request" placeholder="Support Requested"
-                  value="Support Request">
+                <input class="form-control" type="radio" id="request" name="request" placeholder="Support Requested" value="Support Request">
                 <span>General Enquiry</span>
               </div>
             </div>
-            <!-- <div style="border: 2px solid green;">
-                
-              </div> -->
           </div>
           <div class="col-name">
             <div class="input-box">
@@ -63,33 +58,33 @@
                 <span>Support Request</span>
               </div>
             </div>
-    
           </div>
           <div class="col">
-            <div class="input-box">
-              <p><label class="details">Message *</label></p>
-              <textarea name="message" class="form-control-area" id="message" cols="70" row="14">
-              </textarea>
+            <div class="input-box msg-box">
+              <label class="details" for="form">Message *</label>
+              <textarea name="" id="message"></textarea>
               <small class="error">This field is required</small>
-              <p><label for="">
-                  <input type="checkbox">
-    
-                  I consent to being contacted by the team *</label></p>
+             <div>
+              <input type="checkbox">
+              <p>I consent to being contacted by the team *</p>
               <small class="error">To submit this form, please consent to being contacted</small>
+             </div>
             </div>
           </div>
           <div class="col">
             <div class="input-box">
-              <button class="btn-check" id="btn-submit" onclick="functionBtn()">
+              <button class="btn-check" id="btn-submit" onclick="emailValidator()">
                 Submit
               </button>
             </div>
+              <div class="success-message" id="success-message">
+                <div>
+                  <p><img src="assets/images/icon-success-check.svg" alt="icon success check"> Message Sent!</p>
+                  <p>Thanks for completing the form. We'll be in touch soon!</p>
+                </div>
+              </div>
           </div>
         </div>
-    </div>
-    <div class="success-message" id="success-message">
-      <!-- Message Sent!
-            Thanks for completing the form. We'll be in touch soon! -->
     </div>
     </form>
     </div>
