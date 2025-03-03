@@ -78,11 +78,6 @@ form{
   cursor: pointer;
 }
 
-.error{
-  visibility: hidden;
-  color: var(--Red);
-}
-
 .msg-box {
   display: flex;
   flex-direction: column;

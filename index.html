@@ -15,28 +15,28 @@
 
   <main>
     <div class="container">
-      <form action="submti" id="form">
+      <form id="form" onclick="validateEmail()">
         <h1 class="contact-title" id="h1">Contact Us</h1>
         <div class="user-details">
           <div class="col-name">
             <div class="input-box">
               <span class="details">First Name *</span>
               <input type="text" class="form-control" id="first-name">
-              <small class="error" id="error-first">This field is required</small>
+              <small class="error" id="error-first"></small>
             </div>
           </div>
           <div class="col-name">
             <div class="input-box">
               <span class="details">Last Name *</span>
               <input type="text" class="form-control" id="last-name">
-              <small class="error">This field is required</small>
+              <small class="error" id="error-last"></small>
             </div>
           </div>
           <div class="col">
             <div class="input-box">
               <span class="details">Email Address *</span>
               <input class="form-control" type="text" id="email">
-              <small class="error">Please enter a valid email address</small>
+              <small class="error" id="error-email"></small>
             </div>
           </div>
           <div class="col-name">
@@ -63,17 +63,17 @@
             <div class="input-box msg-box">
               <label class="details" for="form">Message *</label>
               <textarea name="" id="message"></textarea>
-              <small class="error">This field is required</small>
+              <small class="error"></small>
              <div>
               <input type="checkbox">
               <p>I consent to being contacted by the team *</p>
-              <small class="error">To submit this form, please consent to being contacted</small>
+              <small class="error"></small>
              </div>
             </div>
           </div>
           <div class="col">
             <div class="input-box">
-              <button class="btn-check" id="btn-submit" onclick="emailValidator()">
+              <button class="btn-check" id="btn-submit" onclick="checkEmail()">
                 Submit
               </button>
             </div>
@@ -85,8 +85,8 @@
               </div>
           </div>
         </div>
-    </div>
-    </form>
+   
+      </form>
     </div>
   </main>
 </body>
