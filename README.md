@@ -33,10 +33,11 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
+- Solution URL: [Github](https://github.com/EAguayodev/Contact-Form)
 - Live Site URL: [Vercel](https://contact-form-zeta-nine.vercel.app/)
 
 ## My process
+For my contact form challenge on Frontend Mentor, my process involved using HTML, CSS, and JavaScript in a desktop-to-mobile workflow. I ensured that error messages appeared when users left required fields empty or partially filled in. The form dynamically updated to show red borders and inline error messages when inputs were invalid. Once all fields were completed correctly, a success banner displayed, confirming the submission. This approach provided a smooth user experience across different screen sizes while maintaining clear validation feedback.
 
 ### Built with
 
@@ -48,7 +49,9 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+1. How to dynamically display a success box above the form in JavaScript.
+2. Validating form fields using if/else conditionals to check for empty inputs and incorrect formats.
+3. Applying CSS styles dynamically to indicate errors and valid inputs with red and green borders.
 
 To see how you can add code snippets, see below:
 
@@ -101,14 +104,15 @@ input[type="radio"] {
 ```
 
 ### Continued development
+How to dynamically display a success box above the form in JavaScript.
+Validating form fields using if/else conditionals to check for empty inputs and incorrect formats.
+Applying CSS styles dynamically to indicate errors and valid inputs with red and green borders.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 
 ### Useful resources
 
 - [w3schools](https://www.w3schools.com/tags/att_input_type_radio.asp) - The w3schools resource helped me with structuring the html inputs containing the query selecting types for inserting into the message box.
-- []() - .
 
 ## Author
 
