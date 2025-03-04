@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here]()
 - Live Site URL: [Vercel](https://contact-form-zeta-nine.vercel.app/)
 
 ## My process
@@ -54,14 +54,14 @@ To see how you can add code snippets, see below:
 
 ```html
 <div class="input-box">
-              <label>
-                <span class="details">Query Type *</span>
-              </label>
-              <div class="radio-wrapper">
-                <input class="form-control" type="radio" id="request" name="request" placeholder="Support Requested" value="Support Request">
-                <span>General Enquiry</span>
-              </div>
-            </div>
+  <label>
+    <span class="details">Query Type *</span>
+  </label>
+  <div class="radio-wrapper">
+    <input class="form-control" type="radio" id="request" name="request" placeholder="Support Requested" value="Support Request">
+    <span>General Enquiry</span>
+  </div>
+</div>
 ```
 ```css
 input[type="radio"] {
@@ -107,13 +107,13 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [w3schools](https://www.w3schools.com/tags/att_input_type_radio.asp) - The w3schools resource helped me with structuring the html inputs containing the query selecting types for inserting into the message box.
+- []() - .
 
 ## Author
 
 - Website - [Eric Aguayo](https://www.ericaguayo.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@EAguayodev](https://www.frontendmentor.io/profile/EAguayodev/solutions)
 
 
 ## Acknowledgments
