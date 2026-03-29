@@ -116,8 +116,4 @@ Applying CSS styles dynamically to indicate errors and valid inputs with red and
 
 ## Author
 
-- Website - [Eric Aguayo](https://www.ericaguayo.com)
 - Frontend Mentor - [@EAguayodev](https://www.frontendmentor.io/profile/EAguayodev/solutions)
-
-
-## Acknowledgments

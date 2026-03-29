@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Contact form</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/main.js" defer></script>
 </head>
@@ -45,30 +45,29 @@
                 <span class="details">Query Type *</span>
               </label>
               <div class="radio-wrapper">
-                <input class="form-control" type="radio" id="request" name="request" placeholder="Support Requested" value="Support Request">
+                <input class="form-control" type="radio" id="general-request" name="request" value="General Request">
                 <span>General Enquiry</span>
               </div>
             </div>
           </div>
           <div class="col-name">
             <div class="input-box">
-              <label for="request"></label>
               <div class="radio-wrapper">
-                <input class="form-control" type="radio" id="request" name="request" placeholder="Support Requested" value="Support Request">
+                <input class="form-control" type="radio" id="support-request" name="request" value="Support Request">
                 <span>Support Request</span>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="input-box msg-box">
-              <label class="details" for="form">Message *</label>
-              <textarea name="" id="message"></textarea>
+              <label class="details">Message *</label>
+              <textarea name="message" id="message"></textarea>
               <small class="error"></small>
-             <div>
-              <input type="checkbox">
-              <p>I consent to being contacted by the team *</p>
-              <small class="error"></small>
-             </div>
+              <div>
+                <input type="checkbox">
+                <p>I consent to being contacted by the team *</p>
+                <small class="error"></small>
+              </div>
             </div>
           </div>
           <div class="col">
@@ -77,15 +76,14 @@
                 Submit
               </button>
             </div>
-              <div class="success-message" id="success-message">
-                <div>
-                  <p><img src="assets/images/icon-success-check.svg" alt="icon success check"> Message Sent!</p>
-                  <p>Thanks for completing the form. We'll be in touch soon!</p>
-                </div>
+            <div class="success-message" id="success-message">
+              <div>
+                <p><img src="assets/images/icon-success-check.svg" alt="icon success check"> Message Sent!</p>
+                <p>Thanks for completing the form. We'll be in touch soon!</p>
               </div>
+            </div>
           </div>
         </div>
-   
       </form>
     </div>
   </main>
