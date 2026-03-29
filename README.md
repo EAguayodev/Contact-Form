@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/EAguayodev/Contact-Form)
-- Live Site URL: [Vercel](https://contact-form-zeta-nine.vercel.app/)
+- Live Site URL: [Netlify](https://sub-form.netlify.app/)
 
 ## My process
 For my contact form challenge on Frontend Mentor, my process involved using HTML, CSS, and JavaScript in a desktop-to-mobile workflow. I ensured that error messages appeared when users left required fields empty or partially filled in. The form dynamically updated to show red borders and inline error messages when inputs were invalid. Once all fields were completed correctly, a success banner displayed, confirming the submission. This approach provided a smooth user experience across different screen sizes while maintaining clear validation feedback.
